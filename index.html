@@ -11,42 +11,46 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <script>
-        
-        // AI Elements
-
-        var rock = "rock";
-        var paper = "paper";
-        var scissors = "scissors";
-
-        var weapons = [rock, paper, scissors];
-
-         
-
-
-
-
-    </script>
+    
     
     <h1>Test</h1>
 
     <div>
-        <button class="rock">
+        <button class="rock" onclick="selectElement('rock')">
             Rock
         </button>
     </div>
 
     <div>
-        <button class="paper">
+        <button class="paper" onclick="selectElement('paper')">
             Paper
         </button>
     </div>
 
     <div>
-        <button class="scissors">
+        <button class="scissors" onclick="selectElement('scissors')">
             Scissors
         </button>
     </div>
+
     
+    <script>
+        
+        // Elements
+
+        var rock = "rock";
+        var paper = "paper";
+        var scissors = "scissors";
+
+        var computerWeapons = [rock, paper, scissors];
+
+        var playerWeapons = [rock, paper, scissors];
+
+    function selectElement(element) {
+        
+    }
+
+
+    </script>
 </body>
 </html>
