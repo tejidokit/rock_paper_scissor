@@ -1,4 +1,4 @@
-// just for testing
+// just for testing for link between js file and html file
 // let x ='testing'
 
 // alert(x);
