@@ -64,4 +64,44 @@ const computerPlayer = computerWeapons[random];
 
 // OR us below
 // const computerPlayer = convertRandomToString(random);
+
+// ### assigning each parameter element the corresponding logic &/or conditionals
+if (element === rock) {
+    // alert("rock");
+    
+    if (computerPlayer === rock) {
+      alert("it's a tie");
+    } else if (computerPlayer === paper) {
+      alert("computer wins");
+    } else if (computerPlayer === scissors) {
+      alert("player wins");
+    }
+    return;
+  }; 
+  
+if (element === paper) {
+    // alert("paper");
+    
+    if (computerPlayer === rock) {
+      alert("player wins");
+    } else if (computerPlayer === paper) {
+      alert("it's a tie");
+    } else if (computerPlayer === scissors) {
+      alert("computer wins");
+    }
+    return;
+  }
+  
+if (element === scissors) {
+    // alert("scissors");
+    
+    if (computerPlayer === rock) {
+      alert("computer wins");
+    } else if (computerPlayer === paper) {
+      alert("player wins");
+    } else if (computerPlayer === scissors) {
+      alert("it's a tie");
+    }
+    return;
+  }
 }
