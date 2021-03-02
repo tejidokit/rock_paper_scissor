@@ -36,4 +36,27 @@ const convertRandomToString = function (random) {
     }
  }
 
+// ### another way of anonymous function within a function ###
+//   const convertRandomToString = (random) => {
+
+//   convert integer to string
+//     switch (random) {
+//       case 0 :
+//         return rock;
+//         break;
+        
+//       case 1 :
+//         return paper;
+//         break;
+        
+//       case 2 :
+//         return scissors;
+//         break;
+        
+//       default :
+        
+//     }
+//   }
+
+
 }
